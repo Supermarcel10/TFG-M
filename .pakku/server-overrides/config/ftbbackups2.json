@@ -2,7 +2,7 @@
 	"enabled": true,
 	"command_permission_level": 3,
 	"notify_op_only": true,
-	"do_not_notify": true,
+	"do_not_notify": false,
 	"retention_mode": "MAX_BACKUPS",
 	"max_backups": 3,
 	"keep_latest": 3,
@@ -15,10 +15,10 @@
 	"only_if_players_been_online": true,
 	"additional_directories": [],
 	"additional_files": [],
-	"display_file_size": false,
+	"display_file_size": true,
 	"backup_location": ".",
 	"backup_format": "ZIP",
-	"minimum_free_space": 51200,
+	"minimum_free_space": 10240,
 	"free_space_if_needed": true,
 	"excluded": [
 		"DistantHorizons.sqlite"
