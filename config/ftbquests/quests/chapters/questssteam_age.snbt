@@ -1109,10 +1109,10 @@
 					Count: 1
 					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						"ftbfiltersystem:filter": "or(item(gtceu:bronze_drum)item(gtceu:steel_drum)item(gtceu:aluminium_drum)item(gtceu:stainless_steel_drum)item(gtceu:gold_drum)item(gtceu:titanium_drum)item(gtceu:tungsten_steel_drum))"
+						"ftbfiltersystem:filter": "or(item(gtceu:bronze_drum)item(gtceu:steel_drum)item(gtceu:aluminium_drum)item(gtceu:stainless_steel_drum)item(gtceu:gold_drum)item(gtceu:titanium_drum)item(gtceu:tungsten_steel_drum)item(gtceu:bismuth_bronze_drum)item(gtceu:black_bronze_drum))"
 					}
 				}
-				title: "{quests.tasktype.item.any}"
+				title: "{quests.steam_age.fluid_drums.task}"
 				type: "item"
 			}]
 			title: "{quests.steam_age.fluid_drums.title}"
@@ -2119,7 +2119,7 @@
 			y: 6.5d
 		}
 		{
-			dependencies: ["209958FE2EEA5D72"]
+			dependencies: ["5F3063C539C9CBBF"]
 			description: ["{quests.steel_combustion_engine.desc}"]
 			id: "745C46D3CF595600"
 			optional: true
@@ -2131,8 +2131,8 @@
 				type: "item"
 			}]
 			title: "{quests.steel_combustion_engine.title}"
-			x: -16.5d
-			y: 5.5d
+			x: -11.5d
+			y: 17.0d
 		}
 	]
 	subtitle: ["{quests.steam_age.subtitle}"]
